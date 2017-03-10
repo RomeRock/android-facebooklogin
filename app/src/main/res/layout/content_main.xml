@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
     android:id="@+id/content_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -17,10 +18,11 @@
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:text="Login with Facebook"
+        android:paddingTop="10sp"
+        android:paddingBottom="10sp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:visibility="visible"/>
-
 
     <RelativeLayout
         android:id="@+id/content_profile"
@@ -32,17 +34,20 @@
         android:layout_alignParentTop="true"
         android:background="@drawable/border_content"
         android:gravity="top"
-        android:padding="13sp"
+        android:padding="10sp"
         android:visibility="visible">
 
 
-        <com.facebook.login.widget.ProfilePictureView
-            android:id="@+id/friendProfilePicture"
-            android:layout_height="wrap_content"
+        <LinearLayout
+            android:id="@+id/line"
+            android:layout_marginTop="10sp"
             android:layout_width="match_parent"
-            android:layout_alignParentTop="true"
-            android:layout_marginTop="16sp"></com.facebook.login.widget.ProfilePictureView>
-
+            android:layout_height="wrap_content">
+            <com.facebook.login.widget.ProfilePictureView
+                android:id="@+id/friendProfilePicture"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"></com.facebook.login.widget.ProfilePictureView>
+        </LinearLayout>
 
 
         <TextView
@@ -50,7 +55,7 @@
             style="@style/name_profile_style"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/friendProfilePicture"
+            android:layout_below="@+id/line"
             android:textColor="@color/setting_text_color_list" />
 
         <TextView
