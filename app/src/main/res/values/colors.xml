@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#17B0EF</color>
+    <color name="colorPrimaryDark">#1976d2</color>
+    <color name="colorAccent">#0288D1</color>
+    <color name="principal_content">#EEF2F4</color>
+    <color name="principal_border_content">#AAADAF</color>
+    <color name="drawable">#2A3033</color>
+    <color name="drawableHeader">#495155</color>
+    <color name="white">#FFFFFF</color>
+    <color name="centerDetect">#F3FBFB</color>
+    <color name="black">#000000</color>
+    <color name="setting_text_color_list">#343434</color>
+    <color name="ratinStar">#EF5E05</color>
+    <color name="text_border">#D5D5D5</color>
+    <color name="text_logut">#D0D2D8</color>
+    <color name="border_logout">#DEDEDE</color>
+    <color name="facebook_boton">#3B5998</color>
+</resources>

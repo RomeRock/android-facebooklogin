@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MM: Login Facebook</string>
+    <string name="romerock">Rome Rock</string>
+    <string name="romerock_site">http://www.romerock.com</string>
+    <string name="thank_you">
+        <![CDATA[
+            <style>
+                .text{
+                    font-size:14px;
+                    color:#FFFFFF;
+                    line-height:20px;
+                }
+            </style>
+            <div align=justify class="text">Thank you for downloading our Mini Module! Follow us on GitHub for more cool Mini Modules that will help you to make an awesome app a lot easier.</div>
+        ]]></string>
+    <string name="tittle_header">Mini Module: Login Facebook</string>
+    <string name="follow_us_twitter">https://twitter.com/RomeRock_Apps</string>
+    <string name="follow_us_twitter_profile">twitter://user?screen_name=RomeRock_Apps</string>
+    <string name="follow_us_facebook">https://www.facebook.com/RomeRock-App-Studio-337180269970605</string>
+    <string name="follow_us_facebook_profile">fb://page/337180269970605</string>
+    <string name="follow_us_git_hub">https://github.com/RomeRock</string>
+    <string name="romerock_page">http://romerock.com</string>
+    <string name="preferences_name">MM_ROMEROCK</string>
+    <string name="facebook_app_id">YOUR_FACEBOOK_APP_ID</string>
+    <string name="logout">Log out</string>
+</resources>
